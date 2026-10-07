@@ -1,14 +1,14 @@
 :root {
-  --bg-root: #F6F8FA;
-  --bg-surface: #FFFFFF;
-  --text-primary: #17202A;
-  --text-secondary: #667085;
-  --text-muted: #98A2B3;
-  --border: #E4E7EC;
-  --border-hover: #D0D5DD;
-  --accent: #2563EB;
-  --accent-hover: #1D4ED8;
-  --accent-light: #EFF6FF;
+  --bg-root: #050505;
+  --bg-surface: #111111;
+  --text-primary: #FDE2ED;
+  --text-secondary: #FBCFE0;
+  --text-muted: #E8A5BF;
+  --border: #2E2E2E;
+  --border-hover: #444444;
+  --accent: #FFB6C1;
+  --accent-hover: #FFC0CB;
+  --accent-light: #2A1A1E;
   --success: #16A34A;
   --moderate: #CA8A04;
   --unhealthy: #EA580C;
@@ -67,7 +67,7 @@ input {
 
 ::selection {
   background: var(--accent);
-  color: #fff;
+  color: #000;
 }
 
 @keyframes skeleton-pulse {
@@ -189,7 +189,7 @@ input {
   padding: 0 20px;
   font-size: 14px;
   font-weight: 500;
-  color: #fff;
+  color: #000;
   background: var(--accent);
   border-radius: var(--radius);
   transition: background 0.15s;

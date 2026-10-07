@@ -37,7 +37,7 @@ export default function App() {
                 <path d="M16 8v3M16 21v3M8 16h3M21 16h3" stroke="#fff" strokeWidth="2" strokeLinecap="round"/>
               </svg>
             </span>
-            <span className="app-header-title">AirAware</span>
+            <span className="app-header-title">AirAura</span>
           </div>
           <div className="app-header-right">Global Air Quality</div>
         </div>
